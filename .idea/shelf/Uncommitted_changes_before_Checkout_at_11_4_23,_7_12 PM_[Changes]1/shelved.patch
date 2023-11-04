@@ -1,0 +1,105 @@
+Index: app/src/main/java/com/example/a3dollors/MainActivity.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/a3dollors/MainActivity.kt b/app/src/main/java/com/example/a3dollors/MainActivity.kt
+deleted file mode 100644
+--- a/app/src/main/java/com/example/a3dollors/MainActivity.kt	
++++ /dev/null	
+@@ -1,11 +0,0 @@
+-package com.example.a3dollors
+-
+-import androidx.appcompat.app.AppCompatActivity
+-import android.os.Bundle
+-
+-class MainActivity : AppCompatActivity() {
+-    override fun onCreate(savedInstanceState: Bundle?) {
+-        super.onCreate(savedInstanceState)
+-        setContentView(R.layout.activity_main)
+-    }
+-}
+\ No newline at end of file
+Index: app/src/test/java/com/example/a3dollors/ExampleUnitTest.kt
+===================================================================
+diff --git a/app/src/test/java/com/example/a3dollors/ExampleUnitTest.kt b/app/src/test/java/com/example/a3dollors/ExampleUnitTest.kt
+deleted file mode 100644
+--- a/app/src/test/java/com/example/a3dollors/ExampleUnitTest.kt	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-package com.example.a3dollors
+-
+-import org.junit.Test
+-
+-import org.junit.Assert.*
+-
+-/**
+- * Example local unit test, which will execute on the development machine (host).
+- *
+- * See [testing documentation](http://d.android.com/tools/testing).
+- */
+-class ExampleUnitTest {
+-    @Test
+-    fun addition_isCorrect() {
+-        assertEquals(4, 2 + 2)
+-    }
+-}
+\ No newline at end of file
+Index: app/src/androidTest/java/com/example/a3dollors/ExampleInstrumentedTest.kt
+===================================================================
+diff --git a/app/src/androidTest/java/com/example/a3dollors/ExampleInstrumentedTest.kt b/app/src/androidTest/java/com/example/a3dollors/ExampleInstrumentedTest.kt
+deleted file mode 100644
+--- a/app/src/androidTest/java/com/example/a3dollors/ExampleInstrumentedTest.kt	
++++ /dev/null	
+@@ -1,24 +0,0 @@
+-package com.example.a3dollors
+-
+-import androidx.test.platform.app.InstrumentationRegistry
+-import androidx.test.ext.junit.runners.AndroidJUnit4
+-
+-import org.junit.Test
+-import org.junit.runner.RunWith
+-
+-import org.junit.Assert.*
+-
+-/**
+- * Instrumented test, which will execute on an Android device.
+- *
+- * See [testing documentation](http://d.android.com/tools/testing).
+- */
+-@RunWith(AndroidJUnit4::class)
+-class ExampleInstrumentedTest {
+-    @Test
+-    fun useAppContext() {
+-        // Context of the app under test.
+-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+-        assertEquals("com.example.a3dollors", appContext.packageName)
+-    }
+-}
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: app/src/main/java/com/example/samdollar/MainActivity.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/samdollar/MainActivity.kt b/app/src/main/java/com/example/samdollar/MainActivity.kt
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/samdollar/MainActivity.kt	
+@@ -0,0 +1,11 @@
++package com.example.samdollar
++
++import androidx.appcompat.app.AppCompatActivity
++import android.os.Bundle
++
++class MainActivity : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        setContentView(R.layout.activity_main)
++    }
++}
+\ No newline at end of file
